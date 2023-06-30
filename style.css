@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+body {
+    background: rgb(43, 110, 223);
+}
+.parent {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
+.parent input {
+    padding: 8px 4px;
+    font-size: 18px;
+    margin-right: 5px;
+    margin-left: 170px;
+    height: 100%;
+    width: 400px;
+    border-color: rgba(0,0,0,0.1);
+}
+.parent button {
+    font-size: 20px;
+    padding: 8px;
+    background: #fff;
+    border: solid 2px #fff;
+    color: #0b478f;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.parent ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 90px;
+}
+.parent ul li {
+    width: 120px;
+    height: 150px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+.parent ul li span {
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    display: block;
+    color: #084590;
+    font-size: 30px;
+    width: 120px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
